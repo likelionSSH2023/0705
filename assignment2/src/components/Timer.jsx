@@ -54,19 +54,22 @@ function Timer(){
     return(
         <div style = {{
             display :'flex',
-            flexDirection : 'column',
+            flexDirection : 'row',
             height: '300px',
             alignItems: 'center',
             justifyContent: 'center'
 
         }}>
+            <div style={{padding:'10px'}}>
             <div>오늘이</div>
             <div>{CountDownFor()}</div>
             <div>밖에 안 남았다니...</div>
-        <div>-</div>
-            <div>과제제출까지는...</div> 
+            </div>
+        <div style={{padding:'10px'}}>
+        <div>과제제출까지는...</div> 
             <div>{CountDownFor(2023,7,11,23,59,59)}</div>
             <div>밖에 안 남았다니...</div>
+        </div>
         </div>
     )
 }

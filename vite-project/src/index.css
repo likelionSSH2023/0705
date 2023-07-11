@@ -1,8 +1,0 @@
-body{
-  /* 가운데정렬 */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* 높이 */
-  height: 100vh;
-}
